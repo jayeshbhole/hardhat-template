@@ -9,6 +9,9 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 12,
   },
+  engines: {
+    node: ">=8.0.0",
+  },
   overrides: [
     {
       files: ["hardhat.config.js"],
